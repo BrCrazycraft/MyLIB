@@ -1,0 +1,8 @@
+MAIN {
+    #554971  -- ROXO CLARO
+    #36213E  -- ROXO ESCURO
+    #8BC2F5  -- AZUL CLARO
+    #A7CCED  -- AZUL CINZA CLARO
+    #82A0BC  -- AZUL CINZA ESCURO
+    San Serif
+}
