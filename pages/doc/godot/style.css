@@ -20,13 +20,44 @@
 header div .material-symbols-outlined {
     user-select: none;
     font-size: 3em;
+    position: absolute;
+    right: 0;
 }
 
-header {
-    position: absolute;
-    right: auto;
+header nav {
+    padding: 64px 0px 0px 0px;
+    background-color: var(--cor6);
+    height: 100vh;
 }
 
 header div input {
     display: none;
+}
+
+header nav ul {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+header nav ul li a {
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    padding: 4px 0px;
+    display: block;
+    max-width: 512px;
+    background-color: var(--cor4);
+    color: var(--cor1);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover {
+    background-color: var(--cor2);
+}
+
+#MENUP:checked ~ nav {
+    transform: translateX(200px);
+    background-color: #000000;
 }
