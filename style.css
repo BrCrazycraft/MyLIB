@@ -76,6 +76,7 @@ header nav ul li {
 header nav ul li a {
     padding: 2px 15px;
     text-transform: uppercase;
+    user-select: none;
     text-shadow: 2px 2px 2px black;
     color: white;
 }
