@@ -92,52 +92,6 @@ header nav ul li a:hover {
     transition: 0.5s;
 }
 
-@media (min-width: 900px) {
-    .Menu {
-        position: inherit;
-        float: none;
-        display: none;
-    }
-
-    header {
-        display: flex;
-    }
-
-    header .LOGO h1 {
-        margin-left: 1em;
-    }
-
-    header nav {
-        margin: auto 0px 20px auto;
-    }
-
-    header nav ul {
-        position: inherit;
-        width: auto;
-        height: auto;
-        margin: 0px 15px;
-        background-color: transparent;
-        transform: translateX(0px);
-    }
-
-    header nav ul li {
-        display: inline;
-        font-size: 1.2em;
-    }
-
-    header nav ul li a {
-        background-color: var(--cor3);
-        padding: auto 30px;
-        border-radius: 1em;
-        transition: 0.5s;
-    }
-
-    header nav ul li a:hover {
-        color: var(--cor1);
-        background-color: var(--cor4);
-        transform: scale(1.1em);
-    }
-}
 
 body {
     background-color: #0000001c;
@@ -162,7 +116,6 @@ main h2 {
 }
 
 main section {
-    display: flex;
     max-width: 900px;
     margin: 1.5em auto;
 }
@@ -266,4 +219,60 @@ footer h2 a abbr {
 
 footer h2 a abbr:hover {
     color: var(--cor2);
+}
+
+
+
+@media (min-width: 900px) {
+    .Menu {
+        position: inherit;
+        float: none;
+        display: none;
+    }
+
+    header {
+        display: flex;
+    }
+
+    header .LOGO h1 {
+        margin-left: 1em;
+    }
+
+    header nav {
+        margin: auto 0px 20px auto;
+    }
+
+    header nav ul {
+        position: inherit;
+        width: auto;
+        height: auto;
+        margin: 0px 15px;
+        background-color: transparent;
+        transform: translateX(0px);
+    }
+
+    header nav ul li {
+        display: inline;
+        font-size: 1.2em;
+    }
+
+    header nav ul li a {
+        background-color: var(--cor3);
+        padding: auto 30px;
+        border-radius: 1em;
+        transition: 0.5s;
+    }
+
+    header nav ul li a:hover {
+        color: var(--cor1);
+        background-color: var(--cor4);
+        transform: scale(1.1em);
+    }
+
+    
+    main section {
+        display: flex;
+        max-width: 900px;
+        margin: 1.5em auto;
+    }
 }
