@@ -173,17 +173,17 @@ main section div div a:hover {
 
 .HTML {
     background-color: #909090;
-    background-image: url("/resource/mainpage/htmlsection.jpg");
+    background-image: url("resource/mainpage/htmlsection.jpg");
 }
 
 .JAVA {
     background-color: #909090;
-    background-image: url("/resource/mainpage/javasection.jpg");
+    background-image: url("resource/mainpage/javasection.jpg");
 }
 
 .GODOT {
     background-color: #909090;
-    background-image: url("/resource/mainpage/godotsection.jpg");
+    background-image: url("resource/mainpage/godotsection.jpg");
 }
 
 main article {
