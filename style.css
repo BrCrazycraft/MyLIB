@@ -36,6 +36,10 @@
     display: flex;
     align-items: center;
     color: white;
+
+    h1 {
+        display: none;
+    }
 }
 
 
@@ -235,6 +239,7 @@ footer h2 a abbr:hover {
     }
 
     header .LOGO h1 {
+        display: block;
         margin-left: 1em;
     }
 
